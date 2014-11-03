@@ -49,12 +49,12 @@ and open the template in the editor.
         ?>
 <form action="savedata.php" method="post">
 ชื่อผลิตภัณฑ์<input name="txtname" type="text" value="<?php echo $name; ?>"/><br />
-ขนาด<input name="txtsize" type="text" value="<?php echo $size; ?>"/><br />
-หน่วย<input name="txtunit" type="text" value="<?php echo $unit; ?>"/><br />
-ราคา<input name="txtprice" type="text" value="<?php echo $price; ?>"/><br />
-ผลิต<input name="txtindate" type="text" value="<?php echo $indate; ?>"/><br />
-หมดอายุ<input name="txtexdate" type="text" value="<?php echo $exdate; ?>"/><br />    
-เลข อย.<input name="txtcertnumber" type="text" value="<?php echo $certnumber; ?>"/><br />    
+ขนาด<input  name="txtsize" type="text" value="<?php echo $size; ?>"/><br />
+หน่วย<input  name="txtunit" type="text" value="<?php echo $unit; ?>"/><br />
+ราคา<input  name="txtprice" type="text" value="<?php echo $price; ?>"/><br />
+ผลิต<input  name="txtindate" type="text" value="<?php echo $indate; ?>"/><br />
+หมดอายุ<input  name="txtexdate" type="text" value="<?php echo $exdate; ?>"/><br />    
+เลข อย.<input  name="txtcertnumber" type="text" value="<?php echo $certnumber; ?>"/><br />    
 <input type="submit" value="บันทึกข้อมูล" />                
 </form>
         
