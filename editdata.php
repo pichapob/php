@@ -55,7 +55,7 @@ and open the template in the editor.
 ผลิต<input  name="txtindate" type="text" value="<?php echo $indate; ?>"/><br />
 หมดอายุ<input  name="txtexdate" type="text" value="<?php echo $exdate; ?>"/><br />    
 เลข อย.<input  name="txtcertnumber" type="text" value="<?php echo $certnumber; ?>"/><br /> 
-<input type="hidden" value="<?php echo $name; ?>" />
+<input name="txtid" type="hidden" value="<?php echo $name; ?>" />
 <input type="submit" value="บันทึกข้อมูล" />                
 </form>
         
